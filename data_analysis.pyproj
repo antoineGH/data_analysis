@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>2_sublime_lines\sublime_line_project.py</StartupFile>
+    <StartupFile>3_plot_types\plot_types.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>data_analysis</Name>
     <RootNamespace>data_analysis</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +24,7 @@
   <ItemGroup>
     <Folder Include="1_line_graphs\" />
     <Folder Include="2_sublime_lines\" />
+    <Folder Include="3_plot_types\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_line_graphs\line_graphs.py">
@@ -32,6 +34,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="2_sublime_lines\sublime_line_project.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3_plot_types\plot_types.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
