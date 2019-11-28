@@ -25,6 +25,7 @@
     <Folder Include="1_line_graphs\" />
     <Folder Include="2_sublime_lines\" />
     <Folder Include="3_plot_types\" />
+    <Folder Include="4_graph_matplotlib\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_line_graphs\line_graphs.py">
@@ -37,6 +38,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="3_plot_types\plot_types.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_graph_matplotlib\graph_matplotlib.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

@@ -160,8 +160,5 @@ plt.grid(True)
 
 plt.show()
 
-#12. Review
-
-
 
 
