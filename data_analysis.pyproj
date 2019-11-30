@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3_plot_types\plot_types.py</StartupFile>
+    <StartupFile>seaborn\1_searborn_introduction\introduction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,25 +22,31 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="1_line_graphs\" />
-    <Folder Include="2_sublime_lines\" />
-    <Folder Include="3_plot_types\" />
-    <Folder Include="4_graph_matplotlib\" />
+    <Folder Include="matplotlib\1_line_graphs\" />
+    <Folder Include="matplotlib\2_sublime_lines\" />
+    <Folder Include="matplotlib\3_plot_types\" />
+    <Folder Include="matplotlib\4_graph_matplotlib\" />
+    <Folder Include="matplotlib\" />
+    <Folder Include="seaborn\" />
+    <Folder Include="seaborn\1_searborn_introduction\" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_line_graphs\line_graphs.py">
+    <Compile Include="matplotlib\1_line_graphs\line_graphs.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="1_line_graphs\subplot.py">
+    <Compile Include="matplotlib\1_line_graphs\subplot.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="2_sublime_lines\sublime_line_project.py">
+    <Compile Include="matplotlib\2_sublime_lines\sublime_line_project.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="3_plot_types\plot_types.py">
+    <Compile Include="matplotlib\3_plot_types\plot_types.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="4_graph_matplotlib\graph_matplotlib.py">
+    <Compile Include="matplotlib\4_graph_matplotlib\graph_matplotlib.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="seaborn\1_searborn_introduction\introduction.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
