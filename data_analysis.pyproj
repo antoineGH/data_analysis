@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>matplotlib\4_graph_matplotlib\graph_matplotlib.py</StartupFile>
+    <StartupFile>seaborn\seaborn_distribution\seaborn_distribution.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,7 @@
     <Folder Include="matplotlib\" />
     <Folder Include="seaborn\" />
     <Folder Include="seaborn\1_searborn_introduction\" />
+    <Folder Include="seaborn\seaborn_distribution\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="matplotlib\1_line_graphs\line_graphs.py">
@@ -47,6 +48,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="seaborn\1_searborn_introduction\introduction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="seaborn\seaborn_distribution\seaborn_distribution.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
