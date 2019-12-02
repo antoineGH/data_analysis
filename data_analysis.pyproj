@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>seaborn\1_searborn_introduction\introduction.py</StartupFile>
+    <StartupFile>matplotlib\4_graph_matplotlib\graph_matplotlib.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
