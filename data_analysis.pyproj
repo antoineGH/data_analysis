@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>seaborn\seaborn_distribution\seaborn_distribution.py</StartupFile>
+    <StartupFile>seaborn\seaborn_distribution\fifa.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -50,9 +50,15 @@
     <Compile Include="seaborn\1_searborn_introduction\introduction.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="seaborn\seaborn_distribution\fifa.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="seaborn\seaborn_distribution\seaborn_distribution.py">
       <SubType>Code</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="seaborn\seaborn_distribution\fifa.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
