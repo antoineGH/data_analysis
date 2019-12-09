@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>panda\introduction\introduction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,8 +27,10 @@
     <Folder Include="matplotlib\3_plot_types\" />
     <Folder Include="matplotlib\4_graph_matplotlib\" />
     <Folder Include="matplotlib\" />
+    <Folder Include="panda\introduction\" />
     <Folder Include="seaborn\" />
     <Folder Include="seaborn\1_searborn_introduction\" />
+    <Folder Include="panda\" />
     <Folder Include="seaborn\seaborn_distribution\" />
   </ItemGroup>
   <ItemGroup>
@@ -46,6 +47,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="matplotlib\4_graph_matplotlib\graph_matplotlib.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="panda\introduction\introduction.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="seaborn\1_searborn_introduction\introduction.py">
