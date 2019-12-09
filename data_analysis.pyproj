@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>84e83958-bd38-4441-9d6d-eec79e2b17f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>seaborn\seaborn_distribution\fifa.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

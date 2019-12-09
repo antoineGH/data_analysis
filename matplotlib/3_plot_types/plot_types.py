@@ -159,6 +159,3 @@ plt.hist(sales_times2, bins=20, alpha=0.4, normed=True)
 plt.grid(True)
 
 plt.show()
-
-
-
