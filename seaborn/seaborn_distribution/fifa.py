@@ -5,22 +5,22 @@ import seaborn as sns
 # Import Dataframe !!! Full Path
 df = pd.read_csv("E:/git/data_analysis/seaborn/seaborn_distribution/fifa.csv")
 
-print(df.head())
+#print(df.head(10))
 
-# shape return tupple with number of rows and columns
-df_shape = df.shape
-rows, columns = df_shape
+### shape return tupple with number of rows and columns
+#df_shape = df.shape
+#rows, columns = df_shape
 
-print(f"Rows: {rows}, Columns: {columns}")
+#print(f"Rows: {rows}, Columns: {columns}")
 
-# return panda object with dataframe's columns
-print(df.columns)
+### return panda object with dataframe's columns
+#print(df.columns)
 
-# Create columns
+### Create columns
 df["Total Goals"] = df["Home Team Goals"] + df["Away Team Goals"]
-print(df["Total Goals"].head())
+#print(df["Total Goals"].head(10))
 
-# Plot Seaborn Style
+### Plot Seaborn Style
 sns.set_style("whitegrid")
 sns.set_context(context="poster", font_scale=0.8)
 
@@ -32,10 +32,10 @@ plt.show()
 
 goals_df = pd.read_csv("E:/git/data_analysis/seaborn/seaborn_distribution/goals.csv")
 
-print(goals_df.head())
-print(goals_df.columns)
+#print(goals_df.head())
+#print(goals_df.columns)
 
-# Box Plot
+### Box Plot
 sns.set_style("whitegrid")
 sns.set_context(context="poster", font_scale=0.8)
 
