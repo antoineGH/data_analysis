@@ -341,3 +341,4 @@ healthchecksdb
 
 # Ignore venv
 venv/
+power_generated.png
