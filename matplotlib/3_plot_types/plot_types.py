@@ -139,23 +139,23 @@ plt.legend(payment_method_names)
 
 plt.show()
 
-#10. Histogram
+# #10. Histogram
 
-from matplotlib import pyplot as plt
-#from script import sales_times
+# from matplotlib import pyplot as plt
+# #from script import sales_times
 
-plt.hist(sales_times, bins=20)
+# plt.hist(sales_times, bins=20)
 
-plt.show()
+# plt.show()
 
 #11. Multiple Histograms
 
-from matplotlib import pyplot as plt
-#from script import sales_times1
-#from script import sales_times2
+# from matplotlib import pyplot as plt
+# #from script import sales_times1
+# #from script import sales_times2
 
-plt.hist(sales_times1, bins=20, alpha=0.4, normed=True)
-plt.hist(sales_times2, bins=20, alpha=0.4, normed=True)
-plt.grid(True)
+# plt.hist(sales_times1, bins=20, alpha=0.4, normed=True)
+# plt.hist(sales_times2, bins=20, alpha=0.4, normed=True)
+# plt.grid(True)
 
-plt.show()
+# plt.show()
