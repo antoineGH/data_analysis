@@ -39,7 +39,7 @@ df2 = pd.DataFrame([
 
 # From a CSV
 
-df3 = pd.read_csv("E:/git/data_analysis/seaborn/seaborn_distribution/fifa.csv")
+df3 = pd.read_csv("./seaborn_distribution/fifa.csv")
 
 # --- CODE
  

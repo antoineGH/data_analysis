@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 
 # Import Dataframe !!! Full Path
-df = pd.read_csv("E:/git/data_analysis/seaborn/seaborn_distribution/fifa.csv")
+df = pd.read_csv("./fifa.csv")
 
 #print(df.head(10))
 
@@ -30,7 +30,7 @@ ax.set_title("Average Number Of Goals Scored In World Cup Matches By Year")
 plt.xticks(rotation=45)
 plt.show()
 
-goals_df = pd.read_csv("E:/git/data_analysis/seaborn/seaborn_distribution/goals.csv")
+goals_df = pd.read_csv("./goals.csv")
 
 #print(goals_df.head())
 #print(goals_df.columns)
