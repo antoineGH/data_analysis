@@ -28,7 +28,7 @@ Pandas is a data analysis library for Python that provides easy-to-use data stru
 
 ## Screenshots
 
-![Average Screenshot](https://templars.guru/app/github/data_analysis/1.PNG) ![Average Screenshot](https://templars.guru/app/github/data_analysis/2.PNG)
+![Average Screenshot](https://github.com/antoineratat/github_docs/blob/main/data_analysis/1.PNG?raw=true) ![Average Screenshot](https://github.com/antoineratat/github_docs/blob/main/data_analysis/2.PNG?raw=true)
 
 ## Technologies
 
